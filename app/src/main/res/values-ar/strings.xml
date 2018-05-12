@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">الموظفين</string>
+    <string name="title_home">موظف جديد</string>
+    <string name="title_dashboard">جميع الموظفين</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string-array name="Gender">
+        <item>ذكر</item>
+        <item>أنثى</item>
+    </string-array>
+
+    <string-array name="Country">
+        <item>قطر</item>
+        <item>السودان</item>
+        <item>برطانيا</item>
+        <item>ألمانيا</item>
+
+    </string-array>
+
+</resources>

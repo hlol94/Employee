@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:elevation="20dp"
+    android:padding="10dp"
+    android:background="@drawable/list"
+    android:layout_height="wrap_content"
+    android:layout_margin="15dp">
+<ImageView
+    android:layout_width="150dp"
+    android:layout_height="150dp" 
+    android:id="@+id/ivProfile"
+    android:layout_marginRight="10dp"
+    android:background="@drawable/ic_notifications_black_24dp"
+
+    />
+
+<TextView
+    android:id="@+id/tvName"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content" 
+    android:textColor="#fdfdf2"
+    android:textSize="25sp"
+    android:textStyle="bold"
+    android:layout_toRightOf="@+id/ivProfile"
+    android:text="NAME"/>
+
+    <TextView
+        android:id="@+id/tvGender"
+        android:layout_below="@+id/tvName"
+        android:layout_marginTop="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#fdfdf2"
+        android:textSize="17sp"
+        android:layout_toRightOf="@+id/ivProfile"
+        android:text="GENDER"/>
+
+    <TextView
+        android:id="@+id/tvCountry"
+        android:layout_below="@+id/tvName"
+        android:layout_marginTop="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#fdfdf2"
+        android:textSize="17sp"
+        android:layout_marginLeft="10dp"
+        android:layout_toRightOf="@+id/tvGender"
+        android:text=" , COUNTRY"
+        android:paddingBottom="20dp"
+   />
+    
+    <View
+        android:layout_width="180dp"
+        android:layout_height="2dp"
+        android:id="@+id/thinline"
+        android:layout_below="@+id/tvGender"
+        android:layout_toRightOf="@+id/ivProfile"
+        android:layout_marginTop="20dp"
+        android:background="#fafaef"/>
+    
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvDOB"
+        android:text="12/7/1994"
+        android:layout_toRightOf="@+id/ivProfile"
+        android:layout_below="@+id/thinline"
+        android:layout_marginTop="10dp"
+        android:textColor="#f5f5ee"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvSalary"
+        android:text="$ 15000"
+        android:layout_toRightOf="@+id/ivProfile"
+        android:layout_below="@+id/tvDOB"
+        android:layout_marginTop="10dp"
+        android:textColor="#f5f5ee"/>
+        
+    
+
+</RelativeLayout>
